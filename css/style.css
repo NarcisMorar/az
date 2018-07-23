@@ -1,25 +1,12 @@
 /*-----------------------------------------------------------------------------------
-
-    Template Name:
-    Template URI:
-    Description: This is html5 template
-    Author: Rashadul Islam
-    Author URI: http://rashadulislam.com/
-    Version: 1.0
-
------------------------------------------------------------------------------------
-
     CSS INDEX
     ===================
-
     1. Imported Css
     2. Preloader
     3. Crumbs Area
     4. Counter Box
     5. demo-area
-
 -----------------------------------------------------------------------------------*/
-
 
 /*=============================================
  * 1. Imported Css
@@ -31,7 +18,6 @@
 @import url('animatedheadline.css');
 @import url('typography.css');
 @import url('default-css.css');
-
 
 /*=============================================
  * 2. Preloader
@@ -108,7 +94,7 @@ div#preloader {
  *=============================================*/
 
 .crumbs-area{
-    background: url(../img/bg/slider-bg.jpg) center center/cover no-repeat;
+    background: #05116a; /*url(../img/bg/slider-bg.jpg) center center/cover no-repeat;*/
     height: 540px;
     position: relative;
     display: flex;
@@ -136,7 +122,7 @@ div#preloader {
 .crumbs-header .cd-headline{}
 .crumbs-header .cd-words-wrapper{
     font-size: 70px;
-    color: #252424;
+    color: #39a7fb; /*252424*/
     font-weight: 900;
 }
 .btn-area{}
@@ -160,7 +146,7 @@ div#preloader {
  * END Crumbs Area
  *=============================================*/
 
- 
+
  /*=============================================
   *  Navigation
  *=============================================*/
@@ -364,4 +350,23 @@ div#preloader {
 }
 #contact .social i.fa:hover {
 	color: #000;
+}
+
+/*=============================================
+ * color text
+ *=============================================*/
+
+.az-text{
+  color:#39a7fb;
+}
+.soft-text{
+  color:#63e6f2;
+}
+.co-text{
+  color:#b9efff;
+}
+h1{
+  font-size:70px;
+  margin:0;
+  padding-bottom:10px;
 }
