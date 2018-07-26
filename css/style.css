@@ -406,3 +406,11 @@ img{
 img{
   width:100%;
 }
+
+.textp p{
+  font-weight: 300;
+  font-family: verdana;
+  font-size: 15px;
+  line-height: 1.8em;
+  margin-top: 10px;
+}
