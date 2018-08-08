@@ -149,7 +149,7 @@ div#preloader {
 
 
  /*=============================================
-  *  Navigation
+  *  Navigation 1
  *=============================================*/
  #nav {
  	z-index: 9999;
@@ -204,6 +204,66 @@ div#preloader {
  .navbar-custom .nav li.active a:hover {
  	color: #fff;
  }
+
+
+ /*=============================================
+  *  Navigation 2
+ *=============================================*/
+ #nav2 {
+   z-index: 9999;
+ }
+ #nav2.affix {
+   position: fixed;
+   top: 0;
+   width: 100%
+ }
+ .navbar .navbar-nav {
+   display: inline-block;
+   float: none;
+   vertical-align: top;
+ }
+ .navbar .navbar-collapse {
+   text-align: left;
+ }
+ .navbar-custom {
+   margin-bottom: 0;
+   background-color: #f6f6f6;
+   border-radius: 0px;
+   padding: 10px 0;
+   border-bottom: 2px solid #fff;
+ }
+ .navbar-custom a {
+   color: #555;
+ }
+ .navbar-custom .nav li a {
+   margin: 0 60px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   -webkit-transition: background .3s ease-in-out;
+   -moz-transition: background .3s ease-in-out;
+   transition: background .3s ease-in-out;
+ }
+ .navbar-custom .nav li a:hover {
+   outline: 0;
+   color: #000;
+   background-color: transparent;
+ }
+ .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
+   outline: 0;
+   background-color: transparent;
+   color: #000;
+ }
+ .navbar-custom .nav li.active {
+   outline: 0;
+ }
+ .navbar-custom .nav li.active a {
+   background-color: rgba(255,255,255,.3);
+ }
+ .navbar-custom .nav li.active a:hover {
+   color: #fff;
+ }
+
+
 /*=============================================
  * 4. Counter Box
  *=============================================*/
@@ -250,6 +310,9 @@ div#preloader {
 
  .demo-area{}
  .demo-item{
+    background: #f3f3f3;
+    border-radius: 15px;
+    padding: 15px;
     box-shadow: 0px 0px 13px rgba(0,0,0,0.2);
     margin-bottom: 50px;
  }
@@ -289,7 +352,7 @@ div#preloader {
     color: #fff;
  }
  .demo-title h2{
-    font-size: 14px;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 0;
     margin: auto;
@@ -384,6 +447,7 @@ h1{
 }
 
 .gallery img{
+   float: left;
     width: 330px;
     height: 550px;
   }
@@ -394,16 +458,18 @@ img{
 
 .gal{
   margin:1px 5px;
-  float: left;
   padding: 1px;
 }
 
 .gal img{
+    float: center;
     width: 200px;
     height: 80px;
   }
 
 img{
+  float: center;
+  margin-right:15px;
   width:100%;
 }
 
