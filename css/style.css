@@ -205,7 +205,7 @@ div#preloader {
  	color: #fff;
  }
 
- 
+
 
 /*=============================================
  * 4. Counter Box
@@ -315,7 +315,10 @@ div#preloader {
     background: #f9f9f9;
     padding: 70px 0px;
 }
-
+.footer-area2 {
+   background: #f9f9f9;
+   padding: 10px 0px;
+}
 .footer-area img {
     position: relative;
     top: -2px;
