@@ -23,9 +23,9 @@ $(function() {
                   name: name,
                   email: email,
                   message: message
-                },   
+                },   */
               dataType: "json"
-        }); */
+        });
 
             $.ajax({
                 url: "mail/contact_me.php",
