@@ -17,18 +17,3 @@
     $send = mail($to, $subject, $body, $headers);
 
 ?>
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="0; url=https://narcismorar.github.io/az/">
-        <script type="text/javascript">
-            window.location.href = "https://narcismorar.github.io/az/"
-        </script>
-        <title>Page Redirection</title>
-    </head>
-    <body background="#000000">
-        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
-        If you are not redirected automatically, follow this <a href='https://narcismorar.github.io/az/'>link to example</a>.
-    </body>
-</html>
