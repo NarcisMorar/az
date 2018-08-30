@@ -138,25 +138,33 @@
      <div class="col-md-8 col-md-offset-2">
        <form name="sentMessage" id="contactForm" novalidate>
          <div class="row">
-           <div class="col-md-6">
-             <div class="form-group">
-               <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-               <p class="help-block text-danger"></p>
+            <div class="wow slideInLeft">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                      <p class="help-block text-danger"></p>
+                   </div>
+               </div>
+             </div>
+             <div class="wow slideInRight">
+               <div class="col-md-6">
+                   <div class="form-group">
+                      <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                      <p class="help-block text-danger"></p>
+                    </div>
+               </div>
              </div>
            </div>
-           <div class="col-md-6">
-             <div class="form-group">
-               <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+           <div class="wow slideInUp">
+            <div class="form-group">
+               <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
                <p class="help-block text-danger"></p>
-             </div>
-           </div>
+            </div>
          </div>
-         <div class="form-group">
-           <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-           <p class="help-block text-danger"></p>
+         <div class="wow zoomInUp">
+           <div id="success"></div>
+             <button type="submit" class="btn btn-default btn-lg">Send Message</button>
          </div>
-         <div id="success"></div>
-         <button type="submit" class="btn btn-default btn-lg">Send Message</button>
        </form>
               <hr>
             <div class="social">
