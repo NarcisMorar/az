@@ -16,17 +16,6 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
-        /*    $.ajax({
-               url: "https://formspree.io/narcismorar@gmail.com",
-               method: "POST",
-               data: {
-                  name: name,
-                  email: email,
-                  message: message
-                },   */
-              dataType: "json"
-        });
-
             $.ajax({
                 url: "mail/contact_me.php",
                 type: "POST",
@@ -72,37 +61,8 @@ $(function() {
     });
 });
 
+
 /*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
     $('#success').html('');
 });
-
-
-
-
-
-
-/*$(function($)){
-   $('#contactForm').submit(function(event)
-   {
-     event.preventDefault();
-
-     $.ajax({
-      url: "https://formspree.io/narcismorar@gmail.com",
-      method: "POST",
-      data: {
-        name: $("#name").val(),
-        email: $("#email").val(),
-        message: $("#message").val()
-      },
-      dataType: "json"
-}).done(function(){
-     $("#name").val("");
-     $("#email").val("");
-     $("#message").val("");
-     alert("Your email was Submit to us...!");
-}).fail(function){
-    alert("error, your email was not Submit...!");
-});
-};
-};*/
