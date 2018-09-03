@@ -9,11 +9,7 @@ $('#contactForm').submit(function(e){
         $.ajax({
             url: "mail/contact_me.php",
             type: "POST",
-            data: {
-                name: name,
-                email: email,
-                message: message
-            },
+            data: $(this).serialize(),
             cache: false,
             success: function() {
                 // Success message
@@ -43,7 +39,7 @@ $('#contactForm').submit(function(e){
 
 
 
-        
+
       /*  $.ajax({
           url: "https://formspree.io/narcismorar@gmail.com",
           method: "POST",
