@@ -1,4 +1,4 @@
-$('#contact-form').submit(function(e){
+$('#contactForm').submit(function(e){
   var name = document.getElementById('inputName'),
       email = document.getElementById('inputEmail'),
       message = document.getElementById('inputMessage');
