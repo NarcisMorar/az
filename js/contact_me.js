@@ -66,33 +66,3 @@ $(function() {
 $('#name').focus(function() {
     $('#success').html('');
 });
-
-
-
-
-
-
-/*$(function($)){
-   $('#contactForm').submit(function(event)
-   {
-     event.preventDefault();
-
-     $.ajax({
-      url: "https://formspree.io/narcismorar@gmail.com",
-      method: "POST",
-      data: {
-        name: $("#name").val(),
-        email: $("#email").val(),
-        message: $("#message").val()
-      },
-      dataType: "json"
-}).done(function(){
-     $("#name").val("");
-     $("#email").val("");
-     $("#message").val("");
-     alert("Your email was Submit to us...!");
-}).fail(function){
-    alert("error, your email was not Submit...!");
-});
-};
-};*/
